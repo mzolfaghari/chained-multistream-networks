@@ -16,6 +16,7 @@ import matplotlib.image as mpimg
 import scipy
 
 # Make sure that caffe is on the python path:
+#set the caffe_FAST path
 CAFFE_ROOT = '../path_to/caffe_FAST/'
 sys.path.insert(0, CAFFE_ROOT + 'python')
 
@@ -23,7 +24,8 @@ import caffe
 
 caffe.set_mode_gpu()
 caffe.set_device(0)
-net = caffe.Net('/misc/lmbraid18/oliveira/caffe_FAST/models/fcn-8s-pascal-deploy_300.prototxt', '/misc/lmbraid18/oliveira/caffe_FAST/models/FCN_8S_snapshot_iter_300000.caffemodel', caffe.TEST)
+#Set the path of deploy and trained model in the following line:
+net = caffe.Net('/path_to/models_pose/model2_MPII_JHMDB/fcn-8s-pascal-deploy_300.prototxt', '/path_to/models_pose/model2_MPII_JHMDB/FCN_8S_snapshot_iter_300000.caffemodel', caffe.TEST)
 
 
 def get_files_in_dir(DIR, pattern = None):
@@ -200,8 +202,8 @@ def segment(in_file,path):
                   im.putpixel( (j,i), new_color)
      
     SEGMENTED_DIR = path
-    #dd='/Results/'
-    ddBase='/misc/lmbraid19/zolfagha/publish_codes/iccv2017_chainedNetworks/caffe_FAST/caffe_FAST/test_d/'
+    #Set the path for saving results
+    ddBase='/path_to_save/test_d/'
     #SEGMENTED_DIR=SEGMENTED_DIR
      
 
@@ -255,7 +257,8 @@ if __name__ == '__main__':
     #lines = [line.rstrip('\r') for line in open('ntu_videos_crossSubject_woMissedSamples_train.txt')]
     #print lines
     # Open the file for reading.
-    with open('/misc/lmbraid19/zolfagha/publish_codes/iccv2017_chainedNetworks/caffe_FAST/caffe_FAST/ucf101_split1Shuffled_train_denseFlow1.txt', 'r') as infile:
+    #set the path of data list. each line in the list is the location of video frames.
+    with open('/path_to_list/data_list.txt', 'r') as infile:
       data = infile.read()  # Read the contents of the file into memory.
     # Return a list of the lines, breaking at line boundaries.
     my_list = data.splitlines()
