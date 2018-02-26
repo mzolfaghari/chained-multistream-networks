@@ -51,8 +51,7 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 2. Requirements for `Caffe` and `pycaffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
 
 ### Installation
-1. Clone the repository.
-
+1. Download caffe from [caffe_FAST](https://lmb.informatik.uni-freiburg.de/resources/binaries/PartSeg/caffe_FAST.tar.gz) or use caffe_FAST.zip provided in this repository.
 2. Build Caffe and pycaffe
 
     ```Shell
@@ -75,7 +74,7 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 	```
     
 2. Create body pose maps using create_pose_maps.py.
-
+    -set the path of caffe, data list and save path in this script.
     This will create a body part map for each frame. 
 
 #### Part 2: Train (TODO)
