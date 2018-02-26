@@ -52,7 +52,7 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 3. Requirements for `Caffe` and `pycaffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
 
 ### Installation
-1. Download caffe from [caffe_FAST](https://lmb.informatik.uni-freiburg.de/resources/binaries/PartSeg/caffe_FAST.tar.gz) or use caffe_FAST.zip provided in this repository.
+1. git clone ... TODO.
 2. Build Caffe and pycaffe
 
     ```Shell
