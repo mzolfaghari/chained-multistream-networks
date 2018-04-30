@@ -36,7 +36,7 @@ By Mohammadreza Zolfaghari, Gabriel L. Oliveira, Nima Sedaghat, Thomas Brox
     -set the path of caffe, data list and save path in this script.
     This will create a body part map for each frame. 
 
-#### Part 2: Train (TODO)
+#### Part 2: Train
 
 1. Convert each body joint location to body part mask. We provided [sample code](https://github.com/mzolfaghari/chained-multistream-networks/tree/master/body_part_segmentation/create_body_mask) for NTU RGB+D dataset.
 
@@ -45,7 +45,7 @@ Image+mask             |  BodyPart mask
 ![](../files/GIFMaker1.gif)  |  ![](../files/GIFMaker2.gif)
 ![](../files/GIFMaker3.gif)  |  ![](../files/GIFMaker4.gif)
 
-2. Train the model.
+2. Train the model. (ToDo)
 
 
 
