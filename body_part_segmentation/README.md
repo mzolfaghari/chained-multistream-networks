@@ -42,8 +42,8 @@ By Mohammadreza Zolfaghari, Gabriel L. Oliveira, Nima Sedaghat, Thomas Brox
 
 Image+mask             |  BodyPart mask
 :-------------------------:|:-------------------------:
-![](files/GIFMaker1.gif)  |  ![](files/GIFMaker2.gif)
-![](files/GIFMaker3.gif)  |  ![](files/GIFMaker4.gif)
+![](../files/GIFMaker1.gif)  |  ![](../files/GIFMaker2.gif)
+![](../files/GIFMaker3.gif)  |  ![](../files/GIFMaker4.gif)
 
 2. Train the model.
 
