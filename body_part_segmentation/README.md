@@ -39,6 +39,7 @@ By Mohammadreza Zolfaghari, Gabriel L. Oliveira, Nima Sedaghat, Thomas Brox
 #### Part 2: Train (TODO)
 
 1. Convert each body joint location to body part mask. We provided [sample code](https://github.com/mzolfaghari/chained-multistream-networks/tree/master/body_part_segmentation/create_body_mask) for NTU RGB+D dataset.
+
 Image+mask             |  BodyPart mask
 :-------------------------:|:-------------------------:
 ![](files/GIFMaker1.gif)  |  ![](files/GIFMaker2.gif)
