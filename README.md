@@ -71,7 +71,6 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 
 Image+mask             |  BodyPart mask
 :-------------------------:|:-------------------------:
-![](files/GIFMaker1.gif)  |  ![](files/GIFMaker2.gif)
 ![](files/GIFMaker3.gif)  |  ![](files/GIFMaker4.gif)
 
 
