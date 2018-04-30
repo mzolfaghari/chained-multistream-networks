@@ -69,6 +69,11 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 #### Part 1: Body Part Segmentation
  Please follow steps explained in [Body Part Segmentation](https://github.com/mzolfaghari/chained-multistream-networks/tree/master/body_part_segmentation)
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](files/GIFMaker3.gif)  |  ![](files/GIFMaker4.gif)
+
+
 #### Part 2: Chained Multi-stream network
 **Note:** TODO
 
