@@ -4,6 +4,7 @@
 
 
 ### Update
+- **2018.4.30**: Scripts for creating body-part mask to train body-part segmentation network.
 - **2018.2.26**: The pretrained models and scripts for creating human pose maps are released.
 
 ### Contents
