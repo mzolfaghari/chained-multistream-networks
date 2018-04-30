@@ -1,6 +1,5 @@
-#### Code and Models for "Chained Multi-stream Networks Exploiting Pose, Motion, and Appearance for Action Classification and Detection" in ICCV 2017 
-
-###### By Mohammadreza Zolfaghari, Gabriel L. Oliveira, Nima Sedaghat, Thomas Brox
+#### Code and Models for "Chained Multi-stream Networks Exploiting Pose, Motion, and Appearance for Action Classification and Detection" in [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zolfaghari_Chained_Multi-Stream_Networks_ICCV_2017_paper.pdf).
+ By Mohammadreza Zolfaghari, Gabriel L. Oliveira, Nima Sedaghat, Thomas Brox
 
 
 ### Update
