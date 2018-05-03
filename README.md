@@ -56,7 +56,7 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 *After successfully completing the [installation](#installation)*, you are ready to run all the following experiments.
 
 #### Part 0: Network Inputs
-- RGB
+- RGB, use "extract_frames_frmRate.sh" in the "scripts" folder to extract frames
 - Optical Flow: [TVL1](https://github.com/yjxiong/dense_flow), [Brox](https://github.com/mzolfaghari/chained-multistream-networks/tree/master/scripts/brox_flow)
 - Pose
 
