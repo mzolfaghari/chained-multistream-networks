@@ -56,12 +56,12 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 *After successfully completing the [installation](#installation)*, you are ready to run all the following experiments.
 
 #### Part 0: Network Inputs
--RGB
--Optical Flow
--Pose
-           Inputs          |  
-:-------------------------:|
-![](files/net_inputs.gif) | 
+- RGB
+- Optical Flow
+- Pose
+
+           Inputs            
+![](files/net_inputs.gif) 
 
 
 #### Part 1: Body Part Segmentation
