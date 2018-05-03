@@ -57,7 +57,7 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 
 #### Part 0: Network Inputs
 - RGB
-- Optical Flow
+- Optical Flow: [TVL1](https://github.com/yjxiong/dense_flow), [Brox](https://github.com/mzolfaghari/chained-multistream-networks/tree/master/scripts/brox_flow)
 - Pose
 
            Inputs            
