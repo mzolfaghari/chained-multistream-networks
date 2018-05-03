@@ -55,6 +55,14 @@ If you find **ChainedNet** useful in your research, please consider to cite:
 
 *After successfully completing the [installation](#installation)*, you are ready to run all the following experiments.
 
+#### Part 0: Network Inputs
+-RGB
+-Optical Flow
+-Pose
+           Inputs          |  
+:-------------------------:|
+![](files/net_inputs.gif) | 
+
 
 #### Part 1: Body Part Segmentation
  Please follow steps explained in [Body Part Segmentation](https://github.com/mzolfaghari/chained-multistream-networks/tree/master/body_part_segmentation)
@@ -64,15 +72,15 @@ Image+mask             |  BodyPart mask
 ![](files/GIFMaker3.gif)  |  ![](files/GIFMaker4.gif)
 
 
-#### Part 2: Chained Multi-stream network
+#### Part 2: Training the Chained Multi-stream network
 **Note:** TODO
 
+#### Part 3: Results
+**Note:** TODO
 
-### Models (TODO)
-
-
-### Results (TODO)
-
+Recognition                |  Detection
+:-------------------------:|:-------------------------:
+![](files/recognition.gif) |  ![](files/detection.gif)
 
 ### Project page
 https://lmb.informatik.uni-freiburg.de/projects/action_chain/
